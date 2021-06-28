@@ -981,7 +981,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/employee-edit.stories.ts",
+                "file": "src/stories/employee-create.stories.ts",
                 "type": "",
                 "defaultValue": "Template.bind({})"
             },
@@ -989,7 +989,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/employee-create.stories.ts",
+                "file": "src/stories/employee-edit.stories.ts",
                 "type": "",
                 "defaultValue": "Template.bind({})"
             },
@@ -1116,17 +1116,17 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/employee-edit.stories.ts",
-                "type": "Story<EmployeeEditComponent>",
-                "defaultValue": "(args: EmployeeEditComponent) => ({\n  props: args\n})"
+                "file": "src/stories/employee-create.stories.ts",
+                "type": "Story<EmployeeCreateComponent>",
+                "defaultValue": "(args: EmployeeCreateComponent) => ({\n  props: args\n})"
             },
             {
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/employee-create.stories.ts",
-                "type": "Story<EmployeeCreateComponent>",
-                "defaultValue": "(args: EmployeeCreateComponent) => ({\n  props: args\n})"
+                "file": "src/stories/employee-edit.stories.ts",
+                "type": "Story<EmployeeEditComponent>",
+                "defaultValue": "(args: EmployeeEditComponent) => ({\n  props: args\n})"
             },
             {
                 "name": "Template",
@@ -1158,24 +1158,6 @@
                     "type": "literal type"
                 }
             ],
-            "src/stories/employee-edit.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/employee-edit.stories.ts",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/employee-edit.stories.ts",
-                    "type": "Story<EmployeeEditComponent>",
-                    "defaultValue": "(args: EmployeeEditComponent) => ({\n  props: args\n})"
-                }
-            ],
             "src/stories/employee-create.stories.ts": [
                 {
                     "name": "Default",
@@ -1192,6 +1174,24 @@
                     "file": "src/stories/employee-create.stories.ts",
                     "type": "Story<EmployeeCreateComponent>",
                     "defaultValue": "(args: EmployeeCreateComponent) => ({\n  props: args\n})"
+                }
+            ],
+            "src/stories/employee-edit.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/employee-edit.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/employee-edit.stories.ts",
+                    "type": "Story<EmployeeEditComponent>",
+                    "defaultValue": "(args: EmployeeEditComponent) => ({\n  props: args\n})"
                 }
             ],
             "src/stories/employees-list.stories.ts": [
